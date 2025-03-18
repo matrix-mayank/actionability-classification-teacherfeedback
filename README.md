@@ -19,8 +19,8 @@ We developed a machine learning system that can automatically identify actionabl
 
 ## **Repository Structure**
 
-1. traindata.csv - Annotated dataset used for model training and evaluation; available upon request (data privacy concerns)
-2. Actionability_Classification_Teacher_Feedback.ipynb - Notebook containing model training, evaluation, prediction, and SHAP analysis
+1. 'traindata.csv' - Annotated dataset used for model training and evaluation; available upon request (data privacy concerns)
+2. 'Actionability_Classification_Teacher_Feedback.ipynb' - Notebook containing model training, evaluation, prediction, and SHAP analysis
 
 ## **Limitations**
 Our study has several limitations and opportunities for future work. First, with only ~750 hand-annotated instances, our dataset may not capture the full diversity of teacher feedback, potentially leading to overfitting or limited generalizability. Second, our findings may be constrained to the specific educational context studied (Grades 1-5, English and Math) and may not extend to other grade levels, subjects, or settings like higher education or special education. Third, our model was trained on feedback written in English within a specific cultural context, whereas patterns of actionability likely differ across linguistic and cultural settings. Fourth, our feature analyses provide correlational rather than causal insights – we cannot definitively claim that specific linguistic features cause feedback to be more actionable.
