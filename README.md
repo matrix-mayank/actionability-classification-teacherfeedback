@@ -3,7 +3,7 @@
 This repository contains code for a research project focused on classifying teacher feedback as either "actionable" or "vague." The system uses RoBERTa fine-tuning to identify feedback that provides clear, specific, and implementable guidance versus feedback that is vague.
 
 ## **Project Overview**
-We developed a LM-based system that can automatically identify actionable feedback in classroom observations of teachers. The model achieves strong performance (93% accuracy in cross-validation) and provides insights into the linguistic characteristics that distinguish actionable from vague feedback.
+We developed a RoBERTa-based system that can automatically identify actionable feedback in classroom observations of teachers. The model achieves strong performance and provides insights into the linguistic characteristics that distinguish actionable from vague feedback.
 
 ## **Data**
 
@@ -11,15 +11,17 @@ We developed a LM-based system that can automatically identify actionable feedba
 2. Feedback collected across grades 1-5 in English and math classrooms from Sierra Leone, Liberia and Ghana
 3. Additional metadata including grade level, subject, and classroom environment ratings
 
-## **Model**
+## **Analysis**
 
 1. Fine-tuned RoBERTa-base model using 5-fold cross-validation
 2. Trained with early stopping and optimized for precision
 3. SHAP (SHapley Additive exPlanations) analysis to identify important linguistic features
+4. Compare linguistic features across actionable and vague feedback
+5. Examine relationships between feedback type and grades/subjects
 
 ## **Repository Structure**
 
-1. `traindata.csv` - Annotated dataset used for model training and evaluation; available upon request (data privacy concerns)
+1. `traindata.csv` - Annotated dataset used for model training and evaluation; available upon request (not uploaded due to data privacy concerns)
 2. `Actionability_Classification_Teacher_Feedback.ipynb` - Notebook containing model training, evaluation, prediction, and SHAP analysis
 
 ## **Limitations**
