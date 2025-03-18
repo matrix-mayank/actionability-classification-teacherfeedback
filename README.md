@@ -22,12 +22,11 @@ We developed a RoBERTa-based system that can automatically identify actionable f
 ## **Repository Structure**
 
 1. `traindata.csv` - Annotated dataset used for model training and evaluation; available upon request (not uploaded due to data privacy concerns)
-2. `Actionability_Classification_Teacher_Feedback.ipynb` - Notebook containing model training, evaluation, prediction, and SHAP analysis
+2. `Actionability_Classification_Teacher_Feedback.ipynb` - Notebook containing model training and all the other analyses listed above
 
 ## **Limitations**
 Our study has several limitations and opportunities for future work. First, with only ~750 hand-annotated instances, our dataset may not capture the full diversity of teacher feedback, potentially leading to overfitting or limited generalizability. Second, our findings may be constrained to the specific educational context studied (Grades 1-5, English and Math) and may not extend to other grade levels, subjects, or settings like higher education or special education. Third, our model was trained on feedback written in English within a specific cultural context, whereas patterns of actionability likely differ across linguistic and cultural settings. Fourth, our feature analyses provide correlational rather than causal insights – we cannot definitively claim that specific linguistic features cause feedback to be more actionable.
-Ethics Statement
 
 ## **Potential Misuse:** 
 1. Our model for classifying teacher feedback could potentially be misused in high-stakes evaluation contexts, leading to automated assessment of teacher performance without appropriate human oversight. We explicitly discourage using this system for formal teacher evaluation or as a sole determinant of professional advancement. The system is designed as a reflective tool for professional development, not an evaluative instrument.
-2. The system should supplement rather than replace human judgment in professional development contexts. The model lacks the holistic understanding that experienced educators bring to feedback interpretation. Educational coaches and mentors should use these insights as conversation starters rather than definitive judgments about feedback quality. Maintaining this human-in-the-loop approach ensures that contextual nuances, relationship dynamics, and individual teacher development needs remain central to the feedback improvement process.
+2. The system should supplement rather than replace human judgment in professional development contexts. The model lacks the holistic understanding that experienced educators bring to feedback interpretation. 
