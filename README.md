@@ -1,6 +1,8 @@
-Teacher Feedback Actionability Classification
+**Teacher Feedback Actionability Classification**
+
 This repository contains code and resources for a research project focused on classifying teacher feedback as either "actionable" or "vague" using machine learning. The system uses RoBERTa fine-tuning to identify feedback that provides clear, specific, and implementable guidance versus feedback that is general and less directed.
-Project Overview
+
+**Project Overview**
 We developed a machine learning system that can automatically identify actionable feedback in classroom observations of teachers. The model achieves strong performance (93% accuracy in cross-validation) and provides insights into the linguistic characteristics that distinguish actionable from vague feedback.
 Data
 
